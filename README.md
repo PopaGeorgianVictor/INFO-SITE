@@ -1,4 +1,4 @@
 # Info-Site
 Selenium With Python
 
-https://popageorgianvictor.github.io/Info-Site/
+https://popageorgianvictor.github.io/INFO-SITE/
