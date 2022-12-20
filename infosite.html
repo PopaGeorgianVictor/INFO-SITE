@@ -1,10 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+                body{
+
+    background-image: url(https://wallpapercave.com/dwp2x/wp3355303.jpg);
+    background-size: contain;
+    font-family: Comic Sans MS;
+
+     }
+
+ #myUL li  #section {
+    color:#B22222;
+    text-shadow: #FC0 1px 0 10px;
+    width: 70%;
+    font-size: 30px ;
+    text-decoration: underline overline #FF3028;
+    border-bottom-right-radius: 250px 100px;
+    border-bottom-left-radius: 250px 100px;
+}
+
+
+* {
+  box-sizing: border-box
+
+
+}
+
+#myInput {
+  background-image: url(https://www.w3schools.com/css/searchicon.png);
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin: 0 auto;
+  display: block;
+  font-family: Comic Sans MS;
+}
+
+#myUL {
+  list-style-type:none;
+  padding: 50px;
+  margin: 0px;
+}
+
+#myUL li a {
+  border: 3px solid cyan;
+  margin-top: -2px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  width: 60%;
+  color: black;
+  display: block;
+  margin: 0 auto;
+
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style>
 </head>
 <body>
+
+<h1 style = "text-align: center; color: #7CFC00;" ><strong><u>Selenium with Python</u></strong></h1>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for courses.." title="Type in a name">
+
+<ul id="myUL" style=" text-align: center">
+  <h1 style = "text-align: center; color: #7CFC00;" ><strong>PYTHON</strong></h1>
+  <li><a href="#" id="section">DATA TYPES</a></li>
+  <li><a href="https://www.geeksforgeeks.org/python-string/?ref=lbp">STRINGS</a></li>
+  <li><a href="https://www.w3schools.com/python/python_lists.asp">LISTS</a></li>
+  <li><a href="https://www.w3schools.com/python/python_tuples.asp">TUPLES</a></li>
+  <li><a href="https://www.w3schools.com/python/python_sets.asp">SETS</a></li>
+  <li><a href="https://www.w3schools.com/python/python_dictionaries.asp">DICTIONARIES</a></li>
+  <li><a href="#" id="section">CONTROL FLOW</a></li>
+  <li><a href="https://www.geeksforgeeks.org/python-if-else/?ref=lbp">CONTROL FLOW</a></li>
+  <li><a href="https://www.geeksforgeeks.org/chaining-comparison-operators-python/?ref=lbp">COMPARASION OPERATORS</a></li>
+  <li><a href="https://www.w3schools.com/python/python_conditions.asp">IF...ELSE</a></li>
+  <li><a href="https://www.w3schools.com/python/python_while_loops.asp">WHILE LOOPS</a></li>
+  <li><a href="https://www.w3schools.com/python/python_for_loops.asp">FOR LOOPS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/python-break-statement/?ref=lbp">BREAK STATEMENT</a></li>
+  <li><a href="https://www.geeksforgeeks.org/python-continue-statement/?ref=lbp">CONTINUE STATEMENT</a></li>
+  <li><a href="https://www.geeksforgeeks.org/python-pass-statement/?ref=lbp">PASS STATEMENT</a></li>
+  <li><a href="https://www.geeksforgeeks.org/looping-techniques-python/?ref=lbp">LOOPING TECHNIQUES</a></li>
+  <li><a href="#" id="section">FUNCTIONS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/python-functions/?ref=lbp">FUNCTION</a></li>
+  <li><a href="https://www.geeksforgeeks.org/args-kwargs-python/?ref=lbp">*args AND **kwargs</a></li>
+  <li><a href="https://www.geeksforgeeks.org/decorators-in-python/">DECORATORS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/decorators-with-parameters-in-python/?ref=lbp">DECORATORS WITH PARAMETERS</a></li>
+  <li><a href="#" id="section">EXCEPTION HANDLING</a></li>
+  <li><a href="https://www.javatpoint.com/python-assert-keyword">ASSERT</a></li>
+  <li><a href="https://www.w3schools.com/python/python_try_except.asp">TRY...EXCEPT</a></li>
+  <li><a href="#" id="section">OOP</a></li>
+  <li><a href="https://www.javatpoint.com/python-oops-concepts">OOPs CONCEPTS</a></li>
+  <li><a href="https://www.w3schools.com/python/python_classes.asp">CLASSES/OBJECTS</a></li>
+  <li><a href="https://www.javatpoint.com/python-constructors">CONSTRUCTORS</a></li>
+  <li><a href="https://www.w3schools.com/python/python_inheritance.asp">INHARITANCE</a></li>
+  <li><a href="https://www.geeksforgeeks.org/polymorphism-in-python/">POLYMORPHISM</a>
+  <li><a href="https://www.javatpoint.com/abstraction-in-python">ABSTRACTION</a></li>
+  <li><a href="https://www.geeksforgeeks.org/encapsulation-in-python/?ref=lbp">ENCAPSULATION</a></li>
+
+  <h1 style = "text-align: center; color: #7CFC00;" ><strong>SELENIUM</strong></h1>
+  <li><a href="#" id="section">BASICS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/selenium-python-introduction-and-installation/">INSTALATION</a></li>
+  <li><a href="https://www.geeksforgeeks.org/navigating-links-using-get-method-selenium-python/">NAVIGATING LINKS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/interacting-with-webpage-selenium-python/">INTERACTING WITH WEBPAGES</a></li>
+  <li><a href="https://www.geeksforgeeks.org/locating-single-elements-in-selenium-python/">LOCATING SINGLE ELEMENTS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/locating-multiple-elements-in-selenium-python/">LOCATING MULTIPLE ELEMENTS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/locator-strategies-selenium-python/">LOCATOR STRATEGIES</a></li>
+  <li><a href="https://www.geeksforgeeks.org/writing-tests-using-selenium-python/">WRITING TESTS</a></li>
+  <li><a href="#" id="section">LOCATING SINGLE ELEMENTS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_element_by_id-driver-method-selenium-python/">By.ID</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_element_by_name-driver-method-selenium-python/">By.NAME</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_element_by_xpath-driver-method-selenium-python/?ref=rp">By.XPATH</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_element_by_link_text-driver-method-selenium-python/?ref=rp">By.LINK_TEXT</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_element_by_partial_link_text-driver-method-selenium-python/?ref=rp">By.PARTIAL_LINK_TEXT</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_element_by_tag_name-driver-method-selenium-python/?ref=rp">By.TAG_NAME</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_element_by_class_name-driver-method-selenium-python/?ref=rp">By.CLASS_NAME</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_element_by_css_selector-driver-method-selenium-python/?ref=rp">By.CSS_SELECTOR</a></li>
+  <li><a href="#" id="section">LOCATING MULTIPLE ELEMENTS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_elements_by_name-driver-method-selenium-python/">By.NAME</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_elements_by_xpath-driver-method-selenium-python/?ref=rp">By.XPATH</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_elements_by_link_text-driver-method-selenium-python/?ref=rp">By.LINK_TEXT</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_elements_by_partial_link_text-driver-method-selenium-python/?ref=rp">By.PARTIAL_LINK_TEXT</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_elements_by_tag_name-driver-method-selenium-python/?ref=rp">By.TAG_NAME</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_elements_by_class_name-driver-method-selenium-python/?ref=rp">By.CLASS_NAME</a></li>
+  <li><a href="https://www.geeksforgeeks.org/find_elements_by_css_selector-driver-method-selenium-python/?ref=rp">By.CSS_SELECTOR</a></li>
+  <li><a href="#" id="section">WAITS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/implicit-waits-in-selenium-python/">IMPLICIT</a></li>
+  <li><a href="https://www.geeksforgeeks.org/explicit-waits-in-selenium-python/">EXPLICIT</a></li>
+  <li><a href="#" id="section">ACTION CHAINS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/action-chains-in-selenium-python/">BASICS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/click-method-action-chains-in-selenium-python/">CLICK</a></li>
+  <li><a href="https://www.geeksforgeeks.org/click_and_hold-action-chains-in-selenium-python/?ref=rp">CLICK AND HOLD</a></li>
+  <li><a href="https://www.geeksforgeeks.org/context_click-action-chains-in-selenium-python/?ref=rp"> CONTEXT CLICK</a></li>
+  <li><a href="https://www.geeksforgeeks.org/double_click-method-action-chains-in-selenium-python/?ref=rp">DOUBLE CLICK</a></li>
+  <li><a href="https://www.geeksforgeeks.org/drag_and_drop-action-chains-in-selenium-python/?ref=rp">DRAG AND DROP</a></li>
+  <li><a href="https://www.geeksforgeeks.org/key_down-method-action-chains-in-selenium-python/?ref=rp">KEY DOWN</a></li>
+  <li><a href="https://www.geeksforgeeks.org/key_up-method-action-chains-in-selenium-python/?ref=rp">KEY UP</a></li>
+  <li><a href="https://www.geeksforgeeks.org/move_by_offset-action-chains-in-selenium-python/?ref=rp">MOVE BY OFFSET</a></li>
+  <li><a href="https://www.geeksforgeeks.org/move_to_element-method-action-chains-in-selenium-python/?ref=rp">MOVE TO ELEMENT</a></li>
+  <li><a href="https://www.geeksforgeeks.org/release-method-action-chains-in-selenium-python/?ref=rp">RELEASE</a></li>
+  <li><a href="https://www.geeksforgeeks.org/reset_actions-method-action-chains-in-selenium-python/?ref=rp">RESET ACTION</a></li>
+  <li><a href="https://www.geeksforgeeks.org/send_keys-method-action-chains-in-selenium-python/?ref=rp">SEND KEYS</a></li>
+  <li><a href="#" id="section">ADVANCED</a></li>
+  <li><a href="https://www.geeksforgeeks.org/exceptions-selenium-python/">EXCEPTIONS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/special-keys-in-selenium-python/">SPECIAL KEYS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/how-to-handle-alert-prompts-in-selenium-python/">ALERTS/PROMPTS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/adding-and-deleting-cookies-in-selenium-python/">ADDING/DELETING COOKIES</a></li>
+  <li><a href="https://www.geeksforgeeks.org/how-to-move-back-and-forward-in-history-using-selenium-python/">BACK/FORWORD IN HISTORY</a></li>
+  <li><a href="https://www.geeksforgeeks.org/assertion-in-selenium-webdriver-using-testng/">ASSERTION</a></li>
+  <li><a href="https://www.geeksforgeeks.org/selenium-python-tricks/">TRICKS</a></li>
+  <li><a href="https://www.geeksforgeeks.org/page-object-model-pom/">POM</a></li>
+  <li><a href="https://behave.readthedocs.io/en/stable/philosophy.html">BDD</a></li>
+
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
 
 </body>
 </html>
